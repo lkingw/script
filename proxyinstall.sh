@@ -4,7 +4,7 @@ yum update -y
 yum install epel-release -y
 yum install tinyproxy -y
 
-wget https://github.com/lkingw/betform/tinyproxy.conf
+wget https://raw.githubusercontent.com/lkingw/script/main/tinyproxy.conf
 
 cp -f tinyproxy.conf /etc/tinyproxy/.
 
